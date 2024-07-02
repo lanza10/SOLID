@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidTest", "SolidTest\SolidTest.csproj", "{957F2F26-93D4-40B9-B90B-77C5367C47C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRPTest", "SRPTest\SRPTest.csproj", "{068AEB62-DECF-44C5-8105-15E8937CE0AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{957F2F26-93D4-40B9-B90B-77C5367C47C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{957F2F26-93D4-40B9-B90B-77C5367C47C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{957F2F26-93D4-40B9-B90B-77C5367C47C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068AEB62-DECF-44C5-8105-15E8937CE0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068AEB62-DECF-44C5-8105-15E8937CE0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068AEB62-DECF-44C5-8105-15E8937CE0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068AEB62-DECF-44C5-8105-15E8937CE0AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
