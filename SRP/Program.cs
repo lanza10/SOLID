@@ -1,14 +1,16 @@
 ﻿using NOSRP;
+using SRP;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Welcome!");
+        StandardMessages.SayWelcome();
 
         var birthDate = new BirthDate();
 
-        Console.WriteLine("Insert the year you were born:");
+        StandardMessages.AskForData("year");
+
         string? year = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(year))
         {
@@ -24,7 +26,7 @@ class Program
             return;
         }
 
-        Console.WriteLine("Insert the month you were born:");
+        StandardMessages.AskForData("month");
 
         string? month = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(month))
@@ -41,7 +43,7 @@ class Program
             return;
         }
 
-        Console.WriteLine("Insert the day you were born:");
+        StandardMessages.AskForData("day");
 
         string? day = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(day))
