@@ -2,10 +2,8 @@
 
 namespace OCP
 {
-    
-
-    class Program{
-        static void Main()
+    internal class Program{
+        private static void Main()
         {
             List<ISigningModel> signings =
             [
