@@ -9,7 +9,7 @@ class Program
         var birthDate = new BirthDate();
 
         Console.WriteLine("Insert the year you were born:");
-        string? year = Console.ReadLine();
+        var year = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(year))
         {
             Console.WriteLine("The year you inserted was empty!");
@@ -24,9 +24,16 @@ class Program
             return;
         }
 
+        if (birthDate.Year is < 0 or > 2024)
+        {
+            Console.WriteLine("The year you inserted is out of range");
+            Console.ReadLine();
+            return;
+        }
+
         Console.WriteLine("Insert the month you were born:");
 
-        string? month = Console.ReadLine();
+        var month = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(month))
         {
             Console.WriteLine("The month you inserted was empty!");
@@ -41,9 +48,16 @@ class Program
             return;
         }
 
+        if (birthDate.Month is < 0 or > 12)
+        {
+            Console.WriteLine("The month you inserted is out of range");
+            Console.ReadLine();
+            return;
+        }
+
         Console.WriteLine("Insert the day you were born:");
 
-        string? day = Console.ReadLine();
+        var day = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(day))
         {
             Console.WriteLine("The day you inserted was empty!");
@@ -54,6 +68,12 @@ class Program
         if (!int.TryParse(day, out birthDate.Day))
         {
             Console.WriteLine("The day you inserted was not a number!");
+            Console.ReadLine();
+            return;
+        }
+        if (birthDate.Day is < 0 or > 31)
+        {
+            Console.WriteLine("The day you inserted is out of range");
             Console.ReadLine();
             return;
         }

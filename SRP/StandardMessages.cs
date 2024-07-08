@@ -12,10 +12,9 @@ namespace SRP
         {
             Console.WriteLine("Welcome!");
         }
-
-        public static void AskForData(string data)
+        public static void EndApp()
         {
-            Console.WriteLine($"Insert the {data} you were born:");
+            Console.ReadLine();
         }
     }
 }
