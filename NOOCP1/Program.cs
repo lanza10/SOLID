@@ -22,7 +22,7 @@ namespace NOOCP
 
             foreach (var player in players )
             {
-                Console.WriteLine($"\t{player.FirstName}\t{player.LastName}\t{player.ShirtName}\t{player.Value}M\tIsFirstTeamPlayer = {player.IsFistTeamPlayer}\tisCrack = {player.isCrack}");
+                Console.WriteLine($"\t{player.FirstName}\t{player.LastName}\t{player.ShirtName}\t{player.Value}M\tIsFirstTeamPlayer = {player.IsFistTeamPlayer}\tIsCrack = {player.isCrack}");
             }
 
             Console.ReadLine();
