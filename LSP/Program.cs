@@ -1,4 +1,4 @@
-﻿namespace NOLSP
+﻿namespace LSP
 {
     public class Program
     {
@@ -13,7 +13,7 @@
             crack.CalculateValue(7);
 
             //var player = new Player
-            var player = new Captain
+            var player = new Player
             {
                 FirstName = "Juan",
                 LastName = "Gutiérrez"

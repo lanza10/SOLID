@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NOLSP
+namespace LSP
 {
-    public class Captain : Player
+    public class Captain : BasePlayer, ICrack
     {
         public override void CalculateValue(int lastPerformance)
         {
@@ -14,12 +14,7 @@ namespace NOLSP
             Value = baseValue + (lastPerformance * 10);
         }
 
-        public override void AssignReferencePlayer(Player newIdol)
-        {
-            throw new InvalidOperationException("The captain has no reference player");
-        }
-
-        public void TrainPenalty()
+        public void TrainPenaltyKicks()
         {
             Console.WriteLine("I'm training my penalty kicks");
         }
