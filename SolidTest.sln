@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOISP", "NOISP\NOISP.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP", "ISP\ISP.csproj", "{D478296E-738A-493E-A3DF-8EEE52221CDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NODIP", "NODIP\NODIP.csproj", "{FDB5DA81-15A6-4A8C-B6E5-6FC8C7FD6139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP", "DIP\DIP.csproj", "{E34248A3-69F5-4D6F-940C-E62C339374C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{D478296E-738A-493E-A3DF-8EEE52221CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D478296E-738A-493E-A3DF-8EEE52221CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D478296E-738A-493E-A3DF-8EEE52221CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB5DA81-15A6-4A8C-B6E5-6FC8C7FD6139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB5DA81-15A6-4A8C-B6E5-6FC8C7FD6139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB5DA81-15A6-4A8C-B6E5-6FC8C7FD6139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB5DA81-15A6-4A8C-B6E5-6FC8C7FD6139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34248A3-69F5-4D6F-940C-E62C339374C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34248A3-69F5-4D6F-940C-E62C339374C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34248A3-69F5-4D6F-940C-E62C339374C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34248A3-69F5-4D6F-940C-E62C339374C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
